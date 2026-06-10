@@ -45,7 +45,7 @@ See attached screenshots:
 - `public_listings_baked_goods_tab.png` — Shows "No listings found in Baked Goods"
 
 ## [Is this Breakage?]
- Yes, see previous code tested
+Yes, core listing publication and visibility constraints are being bypassed 
 
 ## [Severity: How does this problem impact the customer/user?]
 6. Crash or hang cleared by restart / Severe GUI, usability, and accessibility issue — Core marketplace functionality (displaying listings) is broken; sellers cannot surface their items to buyers.  
