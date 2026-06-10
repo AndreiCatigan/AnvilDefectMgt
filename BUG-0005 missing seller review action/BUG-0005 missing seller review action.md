@@ -1,7 +1,7 @@
 # Anvil v1.0 FirstPass UI [Reservations]: "Leave a Review" button is missing from the completed transaction layout panel
 
 ## [Summary]
-  When navigating to the `/reservations` page to view a fully fulfilled and completed food item transaction card, there is no interactive action button or user interface hook provided to leave a rating or text review for the seller. The core rating functionality specified in the test suite is entirely inaccessible from the frontend panel.
+  The transactional history page (`/reservations`) successfully tracks and renders completed transaction records, showing the full fulfilled order card details. However, the layout panel fails to include any visual component, interactive button, or user action hook to let the buyer leave a rating or text review for the seller.
 
 ## [Precondition]
   * Software version: Anvil Production Build v1.0 (Live Test Server)
@@ -17,7 +17,7 @@
   5. Inspect the entire card layout body and control action options for any review entry mechanism.
 
 ## [Actual results]
-  The completed transaction layout card renders metadata parameters (date, item name, provider info) but completely omits the "Leave a Review" interactive button element. The interface provides no structural method to initialize the rating feedback modal form workspace.
+  The completed transaction card is present and displays all historical order parameters correctly. However, the layout completely omits the "Leave a Review" interactive button element, leaving the user with no visual interface method to initialize the rating feedback workflow.
 
 ## [Expected results]
   A dedicated and distinct interactive text button labeled "Leave a Review" must render directly on any item transaction block that exhibits a "Completed" state tag, allowing buyers to initialize a 5-star metric input and input descriptive review feedback text layers.
