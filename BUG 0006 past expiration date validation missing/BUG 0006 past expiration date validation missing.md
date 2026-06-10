@@ -31,7 +31,7 @@ When creating a new food listing, selecting an expiration date that is in the pa
 ## [Additional information]
 See attached screenshot:
 - `past_expiration_date_accepted.png` — Listing form showing yesterday's date with no validation error
-
+- `set_expiration_date.png` - Set yesterday's date with no validation error
 ## [Is this Breakage?]
 Yes, core listing validation constraints are being bypassed on the frontend form.
 
